@@ -1,0 +1,126 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1040px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+.hero {
+    height: 100vh;
+    background-image: url("../images/figma.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.header__row {
+    display: flex;
+    padding-top: 19px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu__item+.menu__item {
+    margin-left: 21px;
+}
+
+.menu__item:last-child {
+    margin-left: auto;
+    padding-right: 45px;
+}
+
+
+.menu__item a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: rgba(35, 166, 240, 1)
+}
+
+.menu {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0 45px 0 83px;
+}
+
+.header__button {
+    background-color: rgba(35, 166, 240, 1);
+    border: 1px solid rgba(35, 166, 240, 1);
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;    /* запрещает сжиматься */
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    transition: .3s;
+}
+
+.header__button svg {
+    margin-left: 15px;
+}
+
+.header__button:hover {
+    background-color: #FFFFFF;
+    color: rgba(35, 166, 240, 1);
+}
+
+.H1 {
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin: 0 0 40px 0;
+}
+
+.P {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+    box-sizing: border-box;
+}
