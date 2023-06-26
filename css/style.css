@@ -4,6 +4,9 @@ html {
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container {
     max-width: 1040px;
@@ -17,7 +20,8 @@ html {
     background-image: url("../images/figma.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    position: relative;
 }
 
 .header__row {
@@ -123,4 +127,117 @@ html {
     align-items: center;
     padding: 90px 0;
     box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.hero__links {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__links a {
+    padding: 15px 36px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    background-color: rgba(35, 166, 240, 1);
+    border-radius: 37px;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.hero__links a:hover {
+    color: rgba(35, 166, 240, 1);
+    background-color: white;
+}
+
+.hero__links a:first-child{
+    margin-right: 10px;
+}
+
+.about {
+    margin-top: -100px;
+    position: relative;
+    z-index: 10px;
+}
+
+.about__row {
+    display: flex;
+    margin: -15px;
+}
+
+.about-item {
+    padding: 35px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.about__item-container {
+    width: 33.3%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.about-item:hover {
+    background-color: rgba(35, 166, 240, 1);
+    color: #FFFFFF;
+}
+
+
+
+
+ @media (max-width:1024px){
+    
+    } 
+
+
+/* 1920-большой декстоп
+1366-младший декстоп (маки  и 13-дюймовые ноутбуки)
+1024-квадратные мониторы и то, что пришло им на замену
+768-1024-планшеты и айпады
+576(8)-768-маленькие планшеты и большие телефоны
+320-576-все современные телефоны */
+
+@media (max-width:850px) {
+    .header__button {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .menu{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__item+.menu__item {
+        margin-left: 0;
+    }
+
+    .header__row {
+        align-items: flex-start;
+    }
+
+    .hero H1 {
+        font-size: 40px;
+        line-height: 57px;
+        margin-bottom: 40px;
+    }
+
+    .about__row {
+        flex-wrap: wrap;
+    }
+
+    .about__item-container{
+        width: 50%;
+    }
+
+    .about__item-container:last-child {
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
 }
