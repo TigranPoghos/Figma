@@ -680,47 +680,235 @@ body {
 
 
 
+.Contact {
+    background: var(--light-gray-1, #FAFAFA);
+    height: 1223px;
+}
 
+.Contact__container {
+    max-width: 1040px;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    box-sizing: border-box;
+}
 
+.background {
+    height: 708.78px;
+    flex-shrink: 0;
+    background-color: #252B42;
+    margin-top: -1094px;
+}
 
+.Contact__row-1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
 
+.Contact__row-1-item1 {
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
 
+.We {
+    margin: 0;
+    color: #FFF;
+}
 
+.Gradual {
+    margin: 0;
+    color: var(--light-text-color, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
 
+.Contact__row-1-item2 {
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
 
+.png {
+    height: 169.1px;
+}
 
+.Contact__row-2 {
+    width: 84%;
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    box-sizing: border-box;
+}
 
+.Contact__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
 
+.Contact__card {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFF;
+}
 
+.media {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
 
+.Media {
+    width: 100%;
+    height: 100%;
+}
 
+.Book {
+    margin: 0;
+}
 
+.Card__item {
+    width: 70%;
+    display: flex;
+    padding: 40px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
 
+.Form__group {
+    height: 84px;
+}
 
+.Button__book {
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--primary-color, #23A6F0);
+    color: var(--light-text-color, #FFF);
+}
 
+.book {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
 
+.zag {
+    margin: 0;
+}
 
+.form__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 
+.input__form {
+    width: 100%;
+    display: flex;
+    padding: 11px 0 11px 21px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
 
+.input__text {
+    color: var(--second-text-color, #737373);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
 
+.Card__item-content {
+    width: 100%;
+}
 
+.input__form-1 {
+    width: 100%;
+    display: flex;
+    padding: 11px 0 11px 18px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+    margin-top: 10px;
+    box-sizing: border-box;
+    gap: 353.992px;
+}
 
+.input__text-1 {
+    color: var(--second-text-color, #737373);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
 
+.input__form-2 {
+    width: 100%;
+    display: flex;
+    padding: 11px 0 11px 18px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+    margin-top: 10px;
+    box-sizing: border-box;
+    gap: 348.992px;
+}
 
+.fa-solid:hover {
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Button__book:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(35, 166, 240, 1);
+    color: rgba(35, 166, 240, 1);
+}
 
 
 
